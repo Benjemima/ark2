@@ -1,0 +1,72 @@
+.banner{
+    background-color: rgb(60, 60, 60);
+    overflow: hidden;
+    position: fixed;
+    border: black 2px;
+    border-style: solid;
+    width: 98.5%;
+    z-index: 1;
+}
+
+body{
+    background-image: url(https://usagym.org/wp-content/uploads/13471.jpg);
+    background-position: fixed;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken, luminosity;
+    background-color: rgba( 0, 0, 0, 0.6);
+}
+
+.banner a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px 7.5px;
+
+}
+
+.banner a:hover{
+    color: black;
+    background-color: white;
+}
+
+#DMT{
+    color: white !important;
+    background-color: rgb(60, 60, 60) !important;
+}
+
+#ai{
+    position: relative;
+    top: 85px;
+    width: 600px;
+    border: black 3px;
+    background-color: rgb(0, 41, 102);
+    color: white;
+    padding: 10px;
+    float: right;
+    border-style: solid;
+    font-size: x-large;
+    right: 125px;
+}
+
+.info{
+    color: white;
+    border: black 3px;
+    background-color: rgb(0, 41, 102);
+    position: relative;
+    padding: 10px;
+    width: 660px;
+    border-style: solid;
+    float: right;
+    right: 95px;
+    top: 125px;
+    font-size: x-large;
+}
+
+#margin{
+    position: relative;
+    color: black;
+    top: 760px;
+}

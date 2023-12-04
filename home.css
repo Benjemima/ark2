@@ -1,0 +1,68 @@
+.banner{
+    background-color: rgb(60, 60, 60);
+    overflow: hidden;
+    position: fixed;
+    border: black 2px;
+    border-style: solid;
+    width: 98.5%;
+    z-index: 1;
+}
+
+body{
+    background-position: fixed;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken, luminosity;
+    background-color: rgba( 0, 0, 0, 0.6);
+}
+
+#usag{
+    position: relative;
+    height: 40%;
+    width: 40%;
+    float: left;
+    left: 50px ;
+    top: 115px;
+}
+
+.banner a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px 7.5px;
+    border: black 2px;
+}
+
+.banner a:hover{
+    color: black;
+    background-color: white;
+}
+
+#DMT{
+    color: white !important;
+    background-color: rgb(60, 60, 60) !important;
+}
+
+#history{
+    position: relative;
+    top: 85px;
+    width: 600px;
+    border: black 3px;
+    background-color: rgb(0, 41, 102);
+    color: white;
+    padding: 10px;
+    float: right;
+    border-style: solid;
+    font-size: x-large;
+    right: 125px;
+}
+
+img{
+    float: right;
+    position: relative;
+    top: 320px;
+    width: 300px;
+    left: 325px;
+}
